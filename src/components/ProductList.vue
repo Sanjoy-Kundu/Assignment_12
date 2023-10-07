@@ -32,7 +32,7 @@ import MasterLayout from "../MasterLayout.vue";
             <td>{{ product.price }}</td>
             <td>{{ product.description }}</td>
             <td>
-              <router-link :to="{name:'product', params:{id:product.id}}"><button class="btn btn-warning">Details</button></router-link>
+              <router-link :to="{name:'product', params:{id:product.id}}"><button class="btn btn-warning">View Details</button></router-link>
             </td>
           </tr>
         </table>
